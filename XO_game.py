@@ -1,3 +1,7 @@
+from Functions_for_XO import *
+import random
+
+
 list11 = [" ",' ',' ',' ',' ',' ',' ',' ',' ']
 try:
     user = input("Choose X or O: ")

@@ -1,14 +1,13 @@
 from texttable import Texttable
-import random
 def intro_func():
 	'''
 	Introduse the board to a user.
 	'''
-list1 = [[0,1,2],[3,4,5],[6,7,8]]
-t = Texttable()
-t.add_rows(list1)
-print("We will play with  board sized 3x3")
-print(t.draw())
+    list1 = [[0,1,2],[3,4,5],[6,7,8]]
+    t = Texttable()
+    t.add_rows(list1)
+    print("We will play with  board sized 3x3")
+    print(t.draw())
 
 def for_3_list(l:list):
 ''' 
