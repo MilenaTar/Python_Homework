@@ -63,6 +63,42 @@ class Tour(Hotel,Taxi):
 tour =Tour("Dilijan_jan","Diligence ", "Dilijan", 10000, 25000,"pickup","Honda Ridgeline",13000)
 tour.Tour_presentation()
     
-    
-        
+ 
+class Heating:
+	def __init__(self,current_temperature, goal_temperature):
+		self.current_temperature = current_temperature
+		self.goal_temperature = goal_temperature
+	def get_temp(self):
+		return F"The temperature now is {self.current_temperature}"
+	def set_temp(self, new_temp, new_goal):
+		self.current_temperature = new_temp
+		self.goal_temperature = new_goal
+	def chek(self):
+		if self.current_temperature == self.goal_temperature:
+			print("All  goal temperatures are satisfied")
+		else:
+			print("Goal temperatures are not satisfied")
+	def __eq__(self, other):
+		if other.current_temperature == self.current_temperature:
+			print("The temperatures are equal.")
+		else:
+			print("The temperatures are not equal.")
+	def compare(self):
+		if self.current_temperature   in range (20,26):
+			return "The temperature is normal."
 
+
+def homes_temp_comp(*argv):
+	s = 0
+	for i in argv:
+		if i.compare() == "The temperature is normal.":
+			s+=1
+	return s
+
+a =Heating(25,23)
+b = Heating(28,23)
+c = Heating(20,25)
+d = Heating(32,40)
+a.__eq__(b)
+print(a.compare())
+print(homes_temp_comp(a,b,c,d))
