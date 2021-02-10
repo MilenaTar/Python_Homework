@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Actors </title>
+	<link rel="stylesheet" href="static/css/22.css">	
+
+</head>
+<body>
+<div style="background-color:white;background-image:url(https://i.pinimg.com/originals/a0/fd/99/a0fd99f7257cb948e695dbfbcf0b5189.jpg);width:3000px;height:3000px;font-size:18px;">
+
+<p> <b> Married actors </b> </p>
+
+{% for i in actors %}
+  {% if i.married is True %}
+    <h2> <a href= {{i.pic}} > {{i.name}} {{i.surname}} </a> </h2>
+   {% endif %}
+{% endfor %}
+
+<p> <b> Not married actors </b> </p>
+
+{% for i in actors %}
+  {% if i.married is False %}
+    <h2> <a href= {{i.pic}} > {{i.name}} {{i.surname}} </a> </h2>
+   {% endif %}
+{% endfor %}
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+{"actors":[
+    {
+        "name":"Jennifer",
+        "surname":"Aniston",
+        "age":51,
+        "married": false,
+        "pic": "https://www.telegraph.co.uk/content/dam/fashion/2019/02/07/GettyImages-824296158_trans_NvBQzQNjv4BqdsqbsZL_ZhuUNVNgtppgSVfvYIpE8WooDS_kmLGJk-A.jpg"
+        
+    },
+    {
+        "name":"Courteney ",
+        "surname":"Cox",
+        "age":56,
+        "married": true,
+        "pic": "https://i.guim.co.uk/img/media/e5f960c57ee409d6b35cbf68ca5b505f5a361292/0_2036_6877_4127/master/6877.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d32e0197763e259e9ea30b9bf1792b66"
+
+    },
+    {
+        "name":"Lisa ",
+        "surname":"Kudrow",
+        "age":57,
+        "married": true,
+        "pic": "https://upload.wikimedia.org/wikipedia/commons/0/04/Lisa_Kudrow_2.jpg"
+    },
+    {
+        "name":"Matthew ",
+        "surname":"Perry",
+        "age":51,
+        "married": true,
+        "pic": "https://static.wikia.nocookie.net/growing-pains/images/3/36/Matthew_Perry1.jpg/revision/latest/top-crop/width/360/height/450?cb=20170121014728"
+    },
+     {
+        "name":"David ",
+        "surname":"Schwimmer",
+        "age":54,
+        "married": false,
+        "pic": "https://i.pinimg.com/originals/a0/55/07/a055071c340169a779d8919347344925.jpg"
+    }
+
+
+]
+}
